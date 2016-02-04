@@ -1,3 +1,8 @@
+# This is just a test script for a Data Structures assignment.
+# The goal was to create some sort of structure for dealing with biological data of species
+# While my pseudocode implementation would have been better in reality, this was a useful exercise to figure out how to
+# proceed.
+
 def insert(species, name):
     species.append(name)
     print(name, "inserted at end")
@@ -30,7 +35,7 @@ allTypes = [cat, dog, fish, bird]
 search(cat, 'Leopard')
 #insert
 insert(fish, "Tuna")
-#delete
+
 #delete(fish, "Tuna")
 #delete species
 #deleteSpecies(fish)
